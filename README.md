@@ -1,18 +1,24 @@
-GPRCONFIG KB
-============
+# `gprconfig_kb` from AdaCore
 
-GPRCONFIG KB is a knowledge base for configuring GPR toolchains, used by
-[GPRbuild](https://github.com/AdaCore/gprbuild) and
-[GPR2](https://github.com/AdaCore/gpr) projects.
+This fork is a (slight) adjustment of some (exotic ?) targets.
 
-Installation and use
---------------------
+It is installed through the scripts of [gprbuild](https://github.com/AdaForge/gprbuild).
 
-Please refer to corresponding project documentation for instructions on how
-gprconfig_kb is used by that project.
 
-Doc & Examples
---------------
+Brought to you by [AdaForge](https://www.Adaforge.org).
 
-The documentation for this knowledge base is available
-[online](http://docs.adacore.com/gprbuild-docs/html/gprbuild_ug/companion_tools.html#the-gprconfig-knowledge-base).
+All merits go to [Adacore](https://www.Adacore.com)'s Team.
+
+
+### Major diffs with AdaCore's version
+
+* Adjusted `FreeBSD` targets in
+  * db/compilers.xml
+  * db/gnat.xml
+  * db/linker.xml
+
+
+# Docs
+
+The documentation for this knowledge base is available at 
+[AdaCore](http://docs.adacore.com/gprbuild-docs/html/gprbuild_ug/companion_tools.html#the-gprconfig-knowledge-base).
