@@ -257,6 +257,7 @@
       <target name="^x86_64-.*darwin.*$" />
       <target name="^.*android.*$" />
       <target name="^.*-qnx[0-9]*$" />
+      <target name="^.*freebsd.*$" />
       <target name="^.*netbsd.*$" />
       <target name="^.*dragonfly.*$" />
    </targets>
